@@ -2,21 +2,19 @@ package org.avaj;
 
 public class Sorted
 {
-    public static void main(String[] args){
-        int [] num = {23,45,67,89};
+   public static boolean sort(int [] arr){
+       int n = arr.length;
+       for(int i=0; i<n-1; i++){
+           if(arr[i] > arr[i+1]){
+               return false;
+           }
 
-        boolean isSorted = true;
-
-        for(int i=0; i< num.length-1; i++){
-            if(num[i]>num[i+1]){
-                isSorted=false;
-                break;
-            }
-        }
-        if(isSorted){
-            System.out.println("is sorted");
-        }else {
-            System.out.println("is not sorted");
-        }
-    }
+       }
+       return true;
+   }
+   public static void main(String[] args){
+       int[] arr={23,45,67,89,34,78};
+       boolean result = sort(arr);
+       System.out.print(result);
+   }
 }

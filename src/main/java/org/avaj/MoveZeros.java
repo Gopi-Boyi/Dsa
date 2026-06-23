@@ -12,7 +12,7 @@ class MoveZeros {
                 pos++;
             }
             i++;
-        }                                           //using two pointer approach t/c = o(n)
+        }
         while(pos<nums.length){
             nums[pos]=0;
             pos++;
