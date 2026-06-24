@@ -4,19 +4,16 @@ import java.util.Arrays;
 
 class MoveZeros {
     public static void moveZeroes(int[] nums) {
-        int pos=0;
-        int i=0;
-        while(i<nums.length){
-            if(nums[i] !=0){
-                nums[pos]=nums[i];
-                pos++;
-            }
-            i++;
-        }
-        while(pos<nums.length){
-            nums[pos]=0;
-            pos++;
-        }
+       int n = nums.length;
+       int left=0;
+       for(int right=0; right<n; right++){
+           if(nums[right] != 0) {
+               int temp = nums[right];
+               nums[right] = nums[left];
+               nums[left] = temp;
+               left++;
+           }
+       }
     }
     public static void main(String[] args){
         int[] nums={1,0,3,0,4,0,0};
