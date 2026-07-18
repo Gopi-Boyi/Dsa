@@ -10,7 +10,7 @@ public class SortColours {
 
         while (mid <= high){
             if(nums[mid] == 0){
-                int temp = nums[mid];
+                int temp = nums[mid]; //equal to Zero swap mid & low or else swap mid & high
                 nums[mid] = nums[low];
                 nums[low] = temp;
                 mid++;
