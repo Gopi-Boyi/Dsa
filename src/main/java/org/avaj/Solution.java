@@ -16,7 +16,7 @@ public class Solution {
 
     public static void main(String[] args) {
         int[] arr = {3, 6, 8, 9, 10};
-        int target = 19;
+        int target = 25;
 
         int[] result = twoSum(arr, target);
 
