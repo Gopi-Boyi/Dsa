@@ -17,8 +17,8 @@ public class Max {
         return maxSum;
     }
     public static void main(String[] args){
-        int[] arr = {2,3,4,5,6,7};
-        int k = 2;
+        int[] arr = {2,3,4,5,6};
+        int k = 3;
 
         int result = silding(arr,k);
         System.out.print(result);

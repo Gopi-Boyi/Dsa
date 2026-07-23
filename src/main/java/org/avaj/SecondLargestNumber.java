@@ -4,7 +4,7 @@ public class SecondLargestNumber {
 
     public static void main(String[] args) {
 
-        int[] arr = {12,45,32,56,7,54,22,567};
+        int[] arr = {-6,-6,-6,-6,-6,-6,-6,-6};
 
         int largest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
@@ -22,6 +22,7 @@ public class SecondLargestNumber {
                 secondLargest = arr[i];
             }
         }
+
 
         System.out.println("Largest : " + largest);
         System.out.println("Second Largest : " + secondLargest);

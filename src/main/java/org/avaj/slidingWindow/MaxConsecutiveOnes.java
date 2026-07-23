@@ -18,7 +18,7 @@ public class MaxConsecutiveOnes {
         return Math.max(max_count, current_count);
     }
     public static void main(String[] args){
-        int [] arr={1,1,1,0,1,1,1,1};
+        int [] arr={1,1,1,0,1,1,0,1};
 
         int result=MaxOnes(arr);
         System.out.print(result);
