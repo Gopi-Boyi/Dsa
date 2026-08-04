@@ -13,8 +13,8 @@ public class MaxAverageSubarray {
         }
         max_sum=window_sum;
         for(int i=k; i<m; i++){
-            window_sum+=nums[i] - nums[i-k];    //Maximum Average subarray i by fixed size
-            max_sum=Math.max(window_sum,max_sum); // Time Complexity o(n)
+            window_sum+=nums[i] - nums[i-k];        //Maximum Average subarray i by fixed size
+            max_sum=Math.max(window_sum,max_sum);   // Time Complexity o(n)
         }
         return (double) max_sum / k;
     }
