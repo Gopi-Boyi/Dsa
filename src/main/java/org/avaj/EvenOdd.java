@@ -3,7 +3,7 @@ package org.avaj;
 public class EvenOdd {
     public static void main(String[] args) {
 
-        int[] arr = {1, 2, 3, 4, 5};
+        int[] arr = {10, 20, 30, 40, 50};
 
         int evenSum = 0;
         int oddSum = 0;
