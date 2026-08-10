@@ -20,7 +20,7 @@ public class SubarrayProductLessThanK {
         return count;
     }
     public static void main(String[] args){
-        int[] nums = {23,45,67,89,98,76,54,32,12};
+        int[] nums = {12,34,56,78,65};
         int k = 224000;
 
         int result = prod(nums , k);
