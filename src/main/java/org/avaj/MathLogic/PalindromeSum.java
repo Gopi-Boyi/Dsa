@@ -1,4 +1,4 @@
-package org.avaj;
+package org.avaj.MathLogic;
 
 
 public class PalindromeSum {
@@ -20,7 +20,7 @@ public class PalindromeSum {
 
     public static void main(String[] args) {
 
-        int[] arr = {121, 45, 131, 200, 99};
+        int[] arr = {121, 45, 131, 200};
 
         int sum = 0;
 

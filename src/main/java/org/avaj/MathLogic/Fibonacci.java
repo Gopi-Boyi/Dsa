@@ -1,4 +1,4 @@
-package org.avaj;
+package org.avaj.MathLogic;
 
 public class Fibonacci {
     public static int fibonacci(int n){

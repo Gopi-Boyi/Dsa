@@ -1,4 +1,4 @@
-package org.avaj;
+package org.avaj.MathLogic;
 
 import java.util.Scanner;
 
