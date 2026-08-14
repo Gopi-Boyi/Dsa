@@ -18,7 +18,7 @@ public class MinimumSizeSubarraySum {
     }
     public static void main(String[] args){
         int[] nums = {2,3,1,2,4,3};
-        int target = 17;
+        int target = 50;
 
         int result = min(nums,target);
         System.out.print(result);
