@@ -11,7 +11,7 @@ public class FindTheMissing {
         return expectedSum - actualSum;
     }
     public static void main(String[] args){
-        int [] nums ={1,0,3};
+        int [] nums ={1,0,3,4,5};
 
         int result = missing(nums);
         System.out.print(result);
