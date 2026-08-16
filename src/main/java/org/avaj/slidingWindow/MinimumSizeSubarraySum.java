@@ -17,7 +17,7 @@ public class MinimumSizeSubarraySum {
         return minLen == Integer.MAX_VALUE ? 0 : minLen;
     }
     public static void main(String[] args){
-        int[] nums = {2,3,1,2,4,3};
+        int[] nums = {2,3,5,7,8};
         int target = 50;
 
         int result = min(nums,target);
