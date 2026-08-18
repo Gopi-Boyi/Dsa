@@ -19,7 +19,7 @@ public class ContainsDuplicates
         return false;
     }
     public static void main(String[] args){
-        int[] nums = {2,2,6,3,4,5,6};
+        int[] nums = {2,2,6,3,4};
 
         System.out.print(duplicates(nums));
     }
