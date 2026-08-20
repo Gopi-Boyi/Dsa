@@ -2,7 +2,7 @@ package org.avaj;
 
 class PrefixSum {
     public static void main(String[] args){
-        int[] arr={34,56,78,90,89,23};
+        int[] arr={34,56,78,90};
 
         int n = arr.length;
 
