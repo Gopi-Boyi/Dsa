@@ -3,7 +3,7 @@ package org.avaj;
 import java.util.Arrays;
 
 class MoveZeros {
-    public static void moveZeroes(int[] nums) {
+    public static int[] moveZeroes(int[] nums) {
        int n = nums.length;
        int left=0;
        for(int right=0; right<n; right++){
@@ -14,9 +14,10 @@ class MoveZeros {
                left++;
            }
        }
+       return nums;
     }
     public static void main(String[] args){
-        int[] nums={3,0,3,0,4,5};
+        int[] nums={3,0,3,0,4,0};
         moveZeroes(nums);
         System.out.print(Arrays.toString(nums));
     }
